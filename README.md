@@ -1,3 +1,3 @@
 # Helen-redesign
 
-This will be my wmock website
+This will be my mock website
