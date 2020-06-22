@@ -1,1 +1,0 @@
-Hello, my name is Helen. I am a rising sophomore at Tufts University studying computer and data science.
