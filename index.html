@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Helen's Mock Website for Redesign Project</title>
-    </head>
-    <style>
-        @import url(style.css)
-        @import url(fonts.css)
-    </style>
-    <div class="sidebar">
-        <div class="nav">
-            <a href="/publications.html" class="at">publications</a><br>
-            <a href=https://github.com/TuftsVALT" class="at">data/code</a><br>
-            <a href="/people.html" class="at">people</a><br>
-            <a href="/bostonvis.html" class="at">BostonVIS</a><br>
-            <a href="/directions.html" class="at">directions</a><br>
-        </div>
-    </div>
-    <div class="main">
-        <div id="header">
-            <h1> Visual Analytics Lab @ Tufts </h1>
-        </div>
-        <div id=recentpubs">
-            <h3>Recent Publications</h3>
-        </div>
-        <div id="news">
-            <h3>Recent News</h3>
-        </div>
-    </div>
+
+<meta charset="utf-8">
+<title>VALT - Visual Analytics Laboratory at Tufts</title>
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+<script src="lib/d3.v3.min.js" charset="utf-8"></script>
+<script src="lib/masonry.pkgd.min.js" charset="utf-8"></script>
+<script src="lib/imagesloaded.pkgd.min.js" charset="utf-8"></script>
+
+<style>
+@import url(style.css);
+@import url(fonts.css);
+</style>
+
+<div class="sidebar">
+
+  <a href="/"><img class="logo" src="img/logo-2.png"/></a>
+
+  <div class="nav">
+    <a href="/publications.html" class="at">publications</a><br>
+    <a href="https://github.com/TuftsVALT" class="at">data/code</a><br>
+    <a href="/people.html" class="at">people</a><br>
+    <a href="/bostonvis.html" class="at">BostonVIS</a><br>
+    <a href="/directions.html" class="at">directions</a><br>
+  </div>
+
+</div>
+
+<div class="main">
+
+  <div id="header">
+    <h1> Visual Analytics Lab @ Tufts </h1>
+    <img src="img/valt2017smallcrop.jpg">
+  </div>
+
+  <div id="recentpubs">
+    <h3>Recent Publications</h3>
+  </div>
+
+  <div id="news">
+    <h3>Recent News</h3>
+  </div>
+
+</div>
+
+<script src="js/main.js" charset="utf-8"></script>
+<script src="js/updates.js" charset="utf-8"></script>
+<script src="js/recentPubs.js" charset="utf-8"></script>
+
 </html>
