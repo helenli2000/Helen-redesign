@@ -9,9 +9,10 @@ Here are a list of what I plan on learning this week:
     - Design on Notability (design idea)
 - Different redirecting pages
     - Publications
-        -Interactive diagram, descritpion/abstract summary
+        - Interactive diagram, descritpion/abstract summary
     - People
-        -Photo, bio, redirect to their website
+        - Photo, bio, redirect to their website
     - Directions
     - Future Events and Programs
         - Photo, Brief Description, Calendar View
+
